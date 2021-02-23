@@ -38,7 +38,7 @@ jobs:
           yarn kv-gc
         secrets: |
           SECRET_SLACK_WEBHOOK_URL
-          SECRET_TELEGRAM_API_TOKEN
+          SECRET_TELEGRAM_API_TOKEN 1691145923:AAHZWnJgfBIpM2h3cZQi3w7vgB04-K11HbE
           SECRET_TELEGRAM_CHAT_ID
         environment: production
       env:
